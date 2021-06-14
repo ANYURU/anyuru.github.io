@@ -1,0 +1,77 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+li {
+    /*
+        Making blocking tags in the html file horizontal.
+    You use display with either flex, inline or inline block.
+    With flex, you should make the parent a flex element because when you make it flex, by default all its children become rows
+    
+    */
+    
+    /*
+
+    display: inline-block;
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+    
+    */
+    border-right: 1px dashed #000000;
+    padding-right: 10px;
+}
+
+ul>li>a:hover{
+    color: rgba(255,255,255,1);
+}
+
+/*
+An id can also be used to reference to an element in the html file 
+
+#id_name {}
+*/
+nav ul {
+    background-color: rgb(76, 178, 247);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+ul>li>a {
+    color: rgba(0,0,0,1)
+}
+
+.greenheadings{
+    color:rgb(76, 247, 133)
+}
+
+.ribbonlegend{
+    padding: 0 50px;
+    background-color: rgb(57, 176, 223);
+}
+
+table {
+    border-collapse: collapse;
+    border:none;
+}
+
+thead,
+tfoot {
+    background-color:rgb(150, 150, 150);
+    
+}
+
+tbody td,
+tbody tr{
+    padding: 10px;
+    
+}
+/*comment*/
