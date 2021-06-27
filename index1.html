@@ -7,69 +7,78 @@
     <title>Personal Profile</title>
 
     <!-- Html css integration -->
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
 
 </head>
 <body>
-    <header>
+    <div class="header">
         <!-- MENU or Navigation bar -->
-        <section>
-            <nav>
-                <ul>
+        <div id = 'menu'>
+            <nav id = 'hero'>
+                <ul id = 'topnav'>
                     <li><a href="">Home</a></li>
                     <li><a href="">My Work</a></li>
                     <li><a href="">Testimonials</a></li>
                     <li><a href="">Blogs</a></li>
                 </ul>
-            </nav>
-        </section>
-
-        <section>
-            <figure>
-                <img src="media/images/professional_headshot/dav.jpg" alt="">
-            </figure>
-        </section>
+            </nav> 
+            <div id = 'greetings'>
+                <p>
+                    Hi there,</br>
+                    I'm David Derrick Anyuru
+                </p>
+            </div>       
+        </div>
 
         <!-- Greeting and Personal Statement -->
-        <section>
-            <p>
-                Hi there,</br>
-                I'm David Derrick Anyuru
-            </p>
+        <div >
             
-            <p>
-                Making the world a better place makes me fulfilled and programming gives me the perfect</br>
-                opportunity to create, transform and empower people and societies to enhance their work, abilities and </br> 
-                potential to achieve greater heights. 
-            </p>
-        </section>
-        <!--Quick Contact Buttons and "HIRE ME" CTA -->
+            
+            <!--Quick Contact Buttons and "HIRE ME" CTA -->    
+        </div>
+
         <section>
-            <nav>
-                <ul>
-                    <li><a href="">Twitter</a></li>
-                    <li><a href="">Phone</a></li>
-                    <li><a href="">Hackerrank</a></li>
-                    <li><a href="">Github</a></li>
-                    <li><a href="">Gmail</a></li>
-                </ul>
-                <button>HIRE ME</button>
-            </nav>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Phone</a></li>
+                        <li><a href="">Hackerrank</a></li>
+                        <li><a href="">Github</a></li>
+                        <li><a href="">Gmail</a></li>
+                    </ul>    
+                </nav>
+            </div>
+                
+            <div>
+                <p>
+                    Making the world a better place makes me fulfilled and programming gives me the perfect
+                    opportunity to create, transform and empower people and societies to enhance their work, abilities and 
+                    potential to achieve greater heights. 
+                </p>
+            </div>
+
+            <div>
+                <li><a>HIRE ME</a></li>   
+            </div>
         </section>
-    </header>
+    </div>
     
     
     <main>
         <!--My Work Section-->
-        <section>
-            <h2></h2>
+        <section class = "my_work">
+            <h2>MY WORK</h2>
             <article>
-                <h3></h3>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <p></p>
+                <h3>PROJECT</h3>
+                <div>
+                    <figure>
+                        <img src="media/images/my_work_section/ima.jpeg" alt="">
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores porro officia temporibus odit, aperiam illum cupiditate ipsum voluptate nisi perspiciatis, maxime id ullam eum enim consectetur doloribus eos? Illum quod earum neque dicta rerum delectus placeat necessitatibus repellat doloribus iure porro maiores obcaecati nobis recusandae eligendi, ex atque quam.</p>
+                </div>
                 <ul>
                     <li><a href="">See more</a></li>
                     <li><a href="">Github</a></li>
@@ -78,11 +87,14 @@
             </article>
             
             <article>
-                <h3></h3>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <p></p>
+                <h3>PROJECT</h3>
+                <div>
+                    <figure>
+                        <img src="media/images/my_work_section/data-science.jpg" alt="">
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium architecto blanditiis odit, velit deserunt natus mollitia nisi inventore eligendi suscipit aliquid assumenda et facilis, veritatis voluptates, ipsa eius cumque non. Eum delectus enim neque veritatis eius ducimus molestiae harum vero explicabo! Molestias doloribus unde delectus dolore aliquid est ratione voluptatum.</p>
+
+                </div> 
                 <ul>
                     <li><a href="">See more</a></li>
                     <li><a href="">Github</a></li>
@@ -91,11 +103,13 @@
             </article>
 
             <article>
-                <h3></h3>
-                <figure>
-                    <img src="" alt="">
-                </figure>  
-                <p></p>
+                <h3>PROJECT</h3>
+                <div>
+                    <figure>
+                        <img src="media/images/my_work_section/nam.jpeg" alt="">
+                    </figure>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam repellat reprehenderit nesciunt ad beatae at aut iusto dolore quas accusantium pariatur quibusdam et maiores dolorem, consectetur maxime quidem iste doloribus cum suscipit, labore rerum consequuntur repellendus facere. Voluptates, et ducimus? Et nesciunt consequatur eveniet consequuntur in error nam iure. Facilis?</p>
+                </div>
                 <ul>
                     <li><a href="">See more</a></li>
                     <li><a href="">Github</a></li>
@@ -103,10 +117,120 @@
                 </ul>
             </article>
         </section>
-        <section>
+        
+        <!--Testimonials section-->
+        <section class="Testimonials">  
+            <h2>Testimonials</h2>
             
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>Lorem.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, totam!</p>
+            </article>
+            
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>Lorem.</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, fuga?</p>
+            </article>
+            
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorem.</p>
+            </article>
+            
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>Consectetur.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, velit!</p>
+            </article>
+            
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>dolor</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, veniam.</p>
+            </article> 
         </section>
-    </main>  
-    
+
+        <!--Blog section -->
+        <section class="blog">
+            <h2>BLOGS</h2>
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>Bash</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit consequatur voluptas, obcaecati officiis veritatis eius!</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>GIT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laboriosam eligendi minus cupiditate cum assumenda.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>CLI</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in debitis veniam sint iste dolore?</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>Emmet</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officiis hic eveniet commodi molestiae odit.</p>
+            </article>
+        </section>
+    </main>
+    <footer> 
+        <!--Contact me section-->
+        <section>
+            <h2>Contact Me</h2>
+            <ul>
+                <div>
+                    <a href=""><i></i></a>
+                    <a href="">Twitter</a>
+                </div>
+                
+                <div><a href=""><i></i></a>
+                    <a href="">+256757501751</a>
+                </div>
+                
+                <div>
+                    <a href=""><i></i></a>
+                    <a href="">Hackerrank</a>
+                </div>
+                
+                <div>
+                    <a href=""><i></i></a>
+                    <a href="">Github</a>
+                </div>
+                
+                <div>
+                    <a href=""><i></i></a>
+                    <a href="">Gmail</a>
+                </div>
+            </ul>
+        </section>
+
+        <!--Copyright section-->
+        <section id = "copyright">    
+            <p>&copy Copyright 2021</p>
+        </section>
+    </footer>
 </body>
 </html>
