@@ -1,0 +1,12 @@
+/* #navItems ul li{
+    padding-top: 5px;
+    padding-left: 10px;
+} */
+ 
+#menu div ul li:last-child {
+    padding-bottom: 0.3rem;
+}
+
+
+
+
