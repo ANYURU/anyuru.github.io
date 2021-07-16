@@ -128,8 +128,7 @@ ul {
     display: flex;
     justify-content: center;
     height: 100%;
-    position:relative;
-    top: 120px;
+    margin-top: 15vh;
 
 
 }
@@ -162,15 +161,18 @@ ul {
     bottom: 3vw;
 }
 
-.my_work h2 { 
+.my_work h2,
+.testimonials h2,
+.blogs h2 { 
     display: flex;
     justify-content: center;
     height: 10vw;
     font-family: 'Roboto';
     font-size: 37px;
     color:#2C2C2C;
-    width:100vw;
+    width:100%;
     align-items: center;
+    margin-top: 5vw;
 }
 
 .my_work article {
@@ -207,6 +209,7 @@ ul {
 .my_work article div {
     display: flex;
     gap: 5vw;
+    
 }
 
 .my_work article div figure img{
@@ -218,9 +221,151 @@ ul {
 .my_work article div p {
     font-family:'Roboto';
     font-size:25px;
-    letter-spacing: 2px;
-    line-height:26px;
-    /* justify-content:center; */
+    letter-spacing: 0.125rem;
+    line-height:1.625rem;
+    color:#2C2C2C;
+    height: 210px;
+    overflow: hidden;
 
+    /* justify-content:center; */
+}
+
+.blogs div  {
+    display: flex;
+    width: 80vw;
+    margin-left: auto; 
+    margin-right: auto; 
+    gap: 2rem;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+
+
+.blogs div article figure {
+    display: flex;
+    justify-content: center;
+}
+
+
+.blogs div article figure img{
+    display: inline-block;
+    height: 20vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.blogs div article h3,
+.testimonials div div article h3 {
+    font-style:'Roboto';
+    font-size: 1.875rem;
+    display: flex;
+    justify-content: center;
+}
+
+.blogs div article p {
+    font-style: 'Roboto';
+    font-size: 1.563rem;
+}
+
+.cs-hidden {
+    display: flex;
+    width: 100%;
+    padding-left: 20;
+    padding-right: auto;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.box {
+    margin: 25px;
+    overflow: hidden;
 
 }
+
+.slider{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.cs-hidden li div {
+    width: 8.75rem;
+}
+
+.cs-hidden li div article figure img {
+    border-radius: 50%;
+    padding: 5px;
+    height: 8.75rem;
+    width: 8.75rem;
+    border: solid 3px #0073D1
+}
+
+.cs-hidden li div article h3 {
+    font-style:'Roboto';
+    font-size: 1.875rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.cs-hidden li div article p {  
+    font-style: 'Roboto';
+    font-size: 1.563rem;
+}
+  
+.contacts h2 { 
+    display: flex;
+    justify-content: center;
+    height: 10vw;
+    font-family: 'Roboto';
+    font-size: 37px;
+    color:#ffffff;
+    width:100%;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.contacts {
+    height: 18.875rem;
+    background-color:#007dD1;
+}
+
+.contacts ul {
+    display: flex;
+    justify-content: center;
+    /* height: 100%; */
+    gap: 4.688rem;
+    margin-top: 4.375rem;
+    /* align-items: center; */
+}
+
+.contacts ul div a:last-child {
+    font-style: 'Roboto';
+    font-size: 1.563rem;
+    color:#ffffff;
+}
+
+.copyright {
+    height:2.688rem;
+    background-color: #2C2C2C;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.copyright p {
+    font-style: 'Roboto';
+    font-size: 1.563rem;
+    color:#ffffff;
+    font-weight: lighter;
+    margin-left: 7.25rem; 
+
+}
+
+
+

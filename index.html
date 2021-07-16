@@ -9,19 +9,19 @@
     <!-- Html css integration -->
     <link rel="stylesheet" href="css/style2.css">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-
-
 </head>
+
 <body>
     <div class="header">
         <!-- MENU or Navigation bar -->
         <div id = 'menu'>
             <nav id = 'hero'>
                 <ul id = 'topnav'>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">My Work</a></li>
-                    <li><a href="">Testimonials</a></li>
-                    <li><a href="">Blogs</a></li>
+                    <li><a href="#menu">Home</a></li>
+                    <li><a href="#my_work">My Work</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#contacts">Contact</a></li>
                 </ul>
             </nav> 
             <div id = 'greetings'>
@@ -69,7 +69,7 @@
     
     <main>
         <!--My Work Section-->
-        <section class = "my_work">
+        <section id= 'my_work' class = "my_work">
             <h2>MY WORK</h2>
             <article>
                 <h3>PROJECT</h3>
@@ -119,86 +119,117 @@
         </section>
         
         <!--Testimonials section-->
-        <section class="Testimonials">  
-            <h2>Testimonials</h2>
-            
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>Lorem.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, totam!</p>
-            </article>
-            
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>Lorem.</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, fuga?</p>
-            </article>
-            
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>amet.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolorem.</p>
-            </article>
-            
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>Consectetur.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, velit!</p>
-            </article>
-            
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>dolor</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, veniam.</p>
-            </article> 
+        <section id = 'testimonials' class="testimonials">  
+            <h2>TESTIMONIES</h2>
+            <section class="slider">
+                <ul id="autoWidth" class="cs-hidden">
+                    <!--1st testimony-->	
+                    <li class="item-a">
+                        <div class="box">
+                            <article>
+                                <figure>
+                                    <img src="media/images/testimonials/male.jpeg" alt="">
+                                </figure>
+                                <h3>Lorem.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, totam!</p>
+                            </article>
+                        </div>
+                    </li>
+
+                    <!--2nd Testimony-->	
+                    <li class="item-b">
+                        <div class="box">
+                            <article>
+                                <figure>
+                                    <img src="media/images/testimonials/icon.png" alt="">
+                                </figure>
+                                <h3>Lorem.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, totam!</p>
+                            </article>
+                        </div>
+                    </li>
+
+                    <!--3rd Testimony-->	
+                    <li class="item-c">
+                        <div class="box">
+                            <article>
+                                <figure>
+                                    <img src="media/images/testimonials/icon.png" alt="">
+                                </figure>
+                                <h3>Lorem.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, totam!</p>
+                            </article>
+                        </div>
+                    </li>
+                    
+                    <!--4th Testimony-->	
+                    <li class="item-d">
+                        <div class="box">
+                            <article>
+                                <figure>
+                                    <img src="media/images/testimonials/icon.png" alt="">
+                                </figure>
+                                <h3>Lorem.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, totam!</p>
+                            </article>
+                        </div>
+                    </li>
+                
+                    <!--5th Testimony-->	
+                    <li class="item-e">
+                        <div class="box">
+                            <article>
+                                <figure>
+                                    <img src="media/images/testimonials/icon.png" alt="">
+                                </figure>
+                                <h3>Lorem.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, totam!</p>
+                            </article>
+                        </div>
+                    </li>
+                </ul>         
+            </section>
         </section>
+            
 
         <!--Blog section -->
-        <section class="blog">
+        <section id = "blogs" class="blogs">
             <h2>BLOGS</h2>
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>Bash</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit consequatur voluptas, obcaecati officiis veritatis eius!</p>
-            </article>
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>GIT</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laboriosam eligendi minus cupiditate cum assumenda.</p>
-            </article>
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>CLI</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in debitis veniam sint iste dolore?</p>
-            </article>
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>Emmet</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officiis hic eveniet commodi molestiae odit.</p>
-            </article>
+            <div>
+                <article>
+                    <figure>
+                        <img src="media/images/blog_section/cli_adobespark (1).png" alt="">
+                    </figure>
+                    <h3>CLI</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit consequatur voluptas, obcaecati officiis veritatis eius!</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="media/images/blog_section/git_adobespark.png" alt="">
+                    </figure>
+                    <h3>GIT</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laboriosam eligendi minus cupiditate cum assumenda.</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="media/images/blog_section/bash_adobespark.png" alt="">
+                    </figure>
+                    <h3>Bash</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in debitis veniam sint iste dolore?</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="media/images/blog_section/emmet_adobespark.png" alt="">
+                    </figure>
+                    <h3>Emmet</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officiis hic eveniet commodi molestiae odit.</p>
+                </article>
+            </div>
         </section>
     </main>
     <footer> 
         <!--Contact me section-->
-        <section>
+        <section id = "contacts" class="contacts">
             <h2>Contact Me</h2>
             <ul>
                 <div>
@@ -228,9 +259,10 @@
         </section>
 
         <!--Copyright section-->
-        <section id = "copyright">    
+        <section class = "copyright">    
             <p>&copy Copyright 2021</p>
         </section>
     </footer>
+     
 </body>
 </html>
