@@ -225,7 +225,7 @@ ul {
     line-height:1.625rem;
     color:#2C2C2C;
     height: 210px;
-    overflow: hidden;
+    /* overflow: hidden; */
 
     /* justify-content:center; */
 }
@@ -367,5 +367,9 @@ ul {
 
 }
 
+.my_work ul {
+    margin-top: 2.188rem;
+    display: flex;
+}
 
 
