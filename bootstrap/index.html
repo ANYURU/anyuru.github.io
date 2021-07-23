@@ -6,30 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Profile</title>
 
-    <!-- Html css integration -->
+    <!-- Html bootstrap css integration -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Html custom css integration-->
     <link rel="stylesheet" href="css/custom.style.css">
 
 
 </head>
 <body>
+    <!--Header section -->
+    <section>
+        <div class = 'hero-bg'>
+            <nav class="navbar navbar-expand-lg navbar-light" id="topnav">
+                <div class="container">
+                  <!--logo-->
+                  <a class="navbar-brand" href="#">Navbar
+                      <img src="" alt="">
+                  </a>
 
-    <nav class="navbar d-flex justify-content-end navbar-expand-lg navbar-light bg-light" id = "menu" >
+                  <!--Humberger-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
 
-        <div class="collapse navbar-collapse" id="navItems">
-            <ul class = "navbar-nav d-flex align-items-end flex-column gap-2">
-                <li class = "nav-item"><a class = "btn btn-outline-primary" href="" role = "button">Home</a></li>
-                <li class = "nav-item"><a class = "btn btn-outline-primary" href="" role = "button">My Work</a></li>
-                <li class = "nav-item"><a class = "btn btn-outline-primary" href="" role = "button">Testimonials</a></li>
-                <li class = "nav-item"><a class = "btn btn-outline-primary" href="" role = "button">Blogs</a></li>
-            </ul>
-        </div>   
+                  <!--Menu-->
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-1">
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#" role="Button">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#" role="Button">My Work</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#" role="Button">Testimonials</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#" role="Button">Blogs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#" role="Button">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            
+            <!--Text-->
+            <div>
+                <p id="greetings">
+                    Hi there,</br>
+                    I'm David Derrick Anyuru
+                </p>
+            </div>
+        </div>
+
+        <!--Hero section-->
+        <section id="hero">
+            <div class="container">
+                <div>
+                    <p id="greetings">
+                        Hi there,</br>
+                        I'm David Derrick Anyuru
+                    </p>
+                </div>
+            </div>
+        <section>
+
         
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navItems" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button> 
+        
+            
+        <!--             
+        <section>
+            <div>    
+                <div id="personal_statement">
+                    <p>
+                        Making the world a better place makes me fulfilled and programming gives me the perfect
+                        opportunity to create, transform and empower people and societies to enhance their work, abilities and 
+                        potential to achieve greater heights. 
+                    </p>
+                </div>
+            </div>
+        </section> 
+        -->
+    </section>
     
-    </nav>
+
     
         <!-- <nav>
             <ul>
@@ -63,7 +126,7 @@
 
         <!-- Greeting and Personal Statement -->
         <div id = "hero">
-            <div>
+            <div >
                 <p>
                     Hi there,</br>
                     I'm David Derrick Anyuru
