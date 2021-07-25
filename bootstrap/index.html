@@ -11,18 +11,25 @@
 
     <!--Html custom css integration-->
     <link rel="stylesheet" href="css/custom.style.css">
+    
+    <!--iconify icons-->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+
+
 
 
 </head>
 <body>
     <!--Header section -->
-    <section>
+    <section class = "header">
         <div class = 'hero-bg'>
             <nav class="navbar navbar-expand-lg navbar-light" id="topnav">
                 <div class="container">
+
                   <!--logo-->
-                  <a class="navbar-brand" href="#">Navbar
-                      <img src="" alt="">
+                  <a class="navbar-brand" href="#">
+                      <img src="media/images/logo/circle-cropped.png" alt="">
                   </a>
 
                   <!--Humberger-->
@@ -53,109 +60,60 @@
                 </div>
             </nav>
             
-            <!--Text-->
-            <div>
-                <p id="greetings">
-                    Hi there,</br>
-                    I'm David Derrick Anyuru
-                </p>
-            </div>
-        </div>
-
-        <!--Hero section-->
-        <section id="hero">
+            <!--greetings-->
             <div class="container">
-                <div>
-                    <p id="greetings">
-                        Hi there,</br>
-                        I'm David Derrick Anyuru
-                    </p>
-                </div>
-            </div>
-        <section>
-
-        
-        
-            
-        <!--             
-        <section>
-            <div>    
-                <div id="personal_statement">
-                    <p>
-                        Making the world a better place makes me fulfilled and programming gives me the perfect
-                        opportunity to create, transform and empower people and societies to enhance their work, abilities and 
-                        potential to achieve greater heights. 
-                    </p>
-                </div>
-            </div>
-        </section> 
-        -->
-    </section>
-    
-
-    
-        <!-- <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">My Work</a></li>
-                <li><a href="">Testimonials</a></li>
-                <li><a href="">Blogs</a></li>
-            </ul>
-        </nav>         -->
-
-    <div class="header">
-        <!-- MENU or Navigation bar -->
-        <!-- <div id = 'menu'>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">My Work</a></li>
-                    <li><a href="">Testimonials</a></li>
-                    <li><a href="">Blogs</a></li>
-                </ul>
-            </nav>        
-        </div> -->
-
-        
-        <!-- <div class = "professionalHeadshot">
-            <figure> 
-                <img src="media/images/professional_headshot/dav.jpg" alt="">
-            </figure>
-        </div>
-        -->
-
-        <!-- Greeting and Personal Statement -->
-        <div id = "hero">
-            <div >
-                <p>
+                <p class="fs-5 header-text" id="greetings">
                     Hi there,</br>
-                    I'm David Derrick Anyuru
+                    I'm David Derrick Anyuru, 
                 </p>
             </div>
-            
-            <!--Quick Contact Buttons and "HIRE ME" CTA -->    
+        </div>
+        <!--End hero section-->
+
+        <!--Top contact links-->
+        <div class="container-fluid d-flex justify-content-end top-links">
+            <ul class="d-flex container contact-container gap-1 justify-content-end">
+                <li><a href=""><span class="iconify" data-icon="logos:twitter" data-inline="false" style="font-size: medium;"></span></a></li>
+                <li><a href=""><span class="iconify" data-icon="akar-icons:phone" data-inline="false" style="font-size: medium;"></span></a></li>
+                <li><a href=""><span class="iconify" data-icon="brandico:linkedin" data-inline="false" style="font-size: medium;"></span></a></li>
+                <li><a href=""><span class="iconify" data-icon="logos:google-gmail" data-inline="false" style="font-size: medium;"></span></a></li>
+                <li><a href=""><span class="iconify" data-icon="ant-design:github-filled" data-inline="false"></span></a></li>
+            </ul>    
         </div>
 
-        <section>
-            <div>
-                <nav>
-                    <ul>
-                        <li><a href="">Twitter</a></li>
-                        <li><a href="">Phone</a></li>
-                        <li><a href="">Hackerrank</a></li>
-                        <li><a href="">Github</a></li>
-                        <li><a href="">Gmail</a></li>
-                    </ul>    
-                </nav>
-            </div>
-                
-            <div>
-                <p>
+        <div class="ps-hireme-cta-container d-flex flex-column justify-content-between">
+            <!--Personal statement-->
+            <div class="container-fluid personal-statement">
+                <p class="container fs-6 header-text">
                     Making the world a better place makes me fulfilled and programming gives me the perfect
                     opportunity to create, transform and empower people and societies to enhance their work, abilities and 
                     potential to achieve greater heights. 
                 </p>
             </div>
+            <!--End personal statement-->
+
+            <!--HIREME CTA-->
+            <div class="hireme-cta container d-flex justify-content-center pb-3">    
+                <a class="btn border-white rounded-pill border-1 fs-6 fw-bold header-text" href="#" role="button">HIREME</a>     
+            </div>
+        </div>
+    </section>
+    <!--End header section-->
+
+    <!---->
+
+
+    <div>
+        <section>
+            
+                
+            <!-- <div>
+                <p>
+                    Making the world a better place makes me fulfilled and programming gives me the perfect
+                    opportunity to create, transform and empower people and societies to enhance their work, abilities and 
+                    potential to achieve greater heights. 
+                </p>
+            </div> -->
 
             <div>
                 <li><a>HIRE ME</a></li>
