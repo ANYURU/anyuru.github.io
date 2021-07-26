@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+
+    <!-- Html bootstrap css integration -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Html custom css integration-->
+    <link rel="stylesheet" href="css/custom.style.css">
+    
+    <!--iconify icons-->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+
+
+
+
+</head>
+<body>
+    <!--Header section -->
+    <section class = "header">
+        <div class = 'hero-bg'>
+            <nav class="navbar navbar-expand-lg navbar-light" id="topnav">
+                <div class="container">
+
+                  <!--logo-->
+                  <a class="navbar-brand d-flex gap-3 align-items-center" href="#">
+                      <img src="media/images/logo/circle-cropped.png" alt="">
+                      <p>David Derrick Anyuru</p>
+                  </a>
+
+                  <!--Humberger-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <!--Menu-->
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-1">
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#" role="Button">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#my-work" role="Button">MY WORK</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline-primary" aria-pressed="true" aria-current="page" href="#" role="Button">TESTIMONIALS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline-primary" aria-pressed="true" aria-current="page" href="#" role="Button">BLOGS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline-primary" aria-pressed="true" aria-current="page" href="#" role="Button">CONTACT</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            
+            <!--greetings-->
+            <div class="container">
+                <p class="fs-5 header-text" id="greetings">
+                    Hi there,</br>
+                    I'm David Derrick Anyuru
+                </p>
+            </div>
+        </div>
+        <!--End hero section-->
+
+        <!--Top contact links-->
+        <div class="container-fluid d-flex justify-content-end top-links">
+            <ul class="d-flex container contact-container gap-1 justify-content-end">
+                <li><a href=""><span class="iconify" data-icon="logos:twitter" data-inline="false" style="font-size: medium;"></span></a></li>
+                <li><a href=""><span class="iconify" data-icon="akar-icons:phone" data-inline="false" style="font-size: medium;"></span></a></li>
+                <li><a href=""><span class="iconify" data-icon="brandico:linkedin" data-inline="false" style="font-size: medium;"></span></a></li>
+                <li><a href=""><span class="iconify" data-icon="logos:google-gmail" data-inline="false" style="font-size: medium;"></span></a></li>
+                <li><a href=""><span class="iconify" data-icon="ant-design:github-filled" data-inline="false"></span></a></li>
+            </ul>    
+        </div>
+
+        <div class="ps-hireme-cta-container d-flex flex-column justify-content-between">
+            <!--Personal statement-->
+            <div class="container-fluid personal-statement">
+                <p class="container fs-6 header-text">
+                    Making the world a better place makes me fulfilled and programming gives me the perfect
+                    opportunity to create, transform and empower people and societies to enhance their work, abilities and 
+                    potential to achieve greater heights. 
+                </p>
+            </div>
+            <!--End personal statement-->
+
+            <!--HIREME CTA-->
+            <div class="hireme-cta container d-flex justify-content-center pb-5">    
+                <a class="btn border-white rounded-pill border-1 fs-6 fw-bold header-text" href="#" role="button">HIREME</a>     
+            </div>
+        </div>
+    </section>
+    <!--End header section-->
+
+    <!--main-->
+    <main>
+        <!--My Work Section-->
+        <section class="container-fluid pt-5 d-flex flex-column bg-light" id="my-work" >
+            <!--Title-->
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <h3 class="fw-bold">MY WORK</h2>
+                </div>
+    
+                <!--Project 1-->
+                <article> 
+                    <div class="d-flex gap-5">
+                        <figure>
+                            <img src="media/images/my_work_section/sacco.jpeg" class="rounded-3 desc-img" alt="">
+                        </figure>
+                        <p>
+                            SACCO APP is a web application that digitizes and automates sacco activites such as savings, deposits and the sacco loaning process. This application still under development being developed by the students' team of the Web Developer Solvers' bootcamp being guided by their instructors as a learning project at the Ablestate.
+                        </p>
+                    </div>
+    
+                    <div class="container d-flex ps-5 pe-5 pb-5 ">
+                        <div class="container">
+                            <h5 class="fw-bold container">SACCO APP</h5>
+                        </div>
+                        <!-- <div class="d-flex container justify-content-end">
+                            <li><a href="">See more</a></li>
+                        </div> -->
+                    </div>
+                </article>
+                
+                <!--Project 2-->
+                <article> 
+                    <div class="d-flex gap-5">
+                        <figure>
+                            <img src="media/images/my_work_section/wireframes.png" class="rounded-3 desc-img" alt="">
+                        </figure>
+                        <div class="container main-text">
+                            <p> 
+                                As an exercise in the first few weeks of the Solvers' bootcamp, I was required to come up with my personal profile using technologies such as figma, HTML, Bootstrap, CSS and Git that I had learnt.
+                            </br>
+                                You can take a galnce at my designs in the links below:
+                            </p>
+                            <div class="d-flex gap-3 container">
+                                <a href="https://www.figma.com/file/7j09v7pY1cXLTvaolGLAPy/High-Fidelity-Wireframes" target="_blank">
+                                    <span class="iconify" data-icon="grommet-icons:figma" data-inline="false"></span>
+                                    high fidelity wireframes & mockups
+                                </a> 
+                                <a href="https://www.figma.com/file/7j09v7pY1cXLTvaolGLAPy/High-Fidelity-Wireframes" target="_blank">
+                                    <span class="iconify" data-icon="grommet-icons:figma" data-inline="false"></span>
+                                    low fidelity wireframes
+                                </a>  
+                                <a href="https://github.com/ANYURU/anyuru.github.io" target="_blank">
+                                    <span class="iconify" data-icon="logos:github-icon" data-inline="false"></span> 
+                                    github repository 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="container d-flex ps-5 pe-5 pb-5 ">
+                        <div class="container">
+                            <h5 class="fw-bold container">PERSONAL PROFILE</h5>
+                        </div>
+                    </div>
+                </article>
+    
+                <!--Project 3-->
+                <article> 
+                    <div class="d-flex gap-5">
+                        <figure>
+                            <img src="media/images/my_work_section/facial.jpeg" class="rounded-3 desc-img" alt="">
+                        </figure>
+    
+                        <div class="container d-flex main-text flex-column">
+                            <p>
+                                The realtime facial recognition security system is a system that was developed by a team of four in which I was a member inorder to achieve the security motive using facial recognition technology in a home enviroment by distinguishing known faces from unknown faces and then notifying via email the owner on detection of an unknown face.
+                            </p>
+                            <a href="https://github.com/ANYURU/Facial-recognition" target="_blank">
+                                <span class="iconify" data-icon="logos:github-icon" data-inline="false"></span> 
+                                github repository
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="container d-flex ps-5 pe-5 pb-5 ">
+                        <div class="container">
+                            <h5 class="fw-bold container"> REALTIME FACIAL RECOGNITION SECURITY SYSTEM</h5>
+                        </div>
+                        <!-- <div class="d-flex container justify-content-end">
+                            <li><a href="">See more</a></li>
+                        </div> -->
+                    </div>
+                </article>
+
+            </div>
+            
+        </section>
+
+
+        <!--Blog section -->
+        <section class="d-flex flex-column bg-white container-fluid" id="blogs">
+        <h2 class="d-flex justify-content-center pt-5" >BLOGS</h2>
+
+        <div>
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>Bash</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit consequatur voluptas, obcaecati officiis veritatis eius!</p>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>GIT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laboriosam eligendi minus cupiditate cum assumenda.</p>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>CLI</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in debitis veniam sint iste dolore?</p>
+            </article>
+            
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>Emmet</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officiis hic eveniet commodi molestiae odit.</p>
+            </article>
+        </div>
+    </section>
+        
+    </main>
+
+
+    
+    
+    
+    <main>
+        
+      
+    </main>
+    <footer> 
+        <!--Contact me section-->
+        <section>
+            <h2>Contact Me</h2>
+            <ul>
+                <div>
+                    <a href=""><i></i></a>
+                    <a href="">Twitter</a>
+                </div>
+                
+                <div><a href=""><i></i></a>
+                    <a href="">+256757501751</a>
+                </div>
+                
+                <div>
+                    <a href=""><i></i></a>
+                    <a href="">Hackerrank</a>
+                </div>
+                
+                <div>
+                    <a href=""><i></i></a>
+                    <a href="">Github</a>
+                </div>
+                
+                <div>
+                    <a href=""><i></i></a>
+                    <a href="">Gmail</a>
+                </div>
+            </ul>
+        </section>
+
+        <!--Copyright section-->
+        <section id = "copyright">    
+            <p>&copy Copyright 2021</p>
+        </section>
+    </footer>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
