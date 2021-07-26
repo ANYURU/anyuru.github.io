@@ -45,16 +45,16 @@
                         <a class="nav-link btn btn-outline-primary" aria-current="page" href="#" role="Button">HOME</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#" role="Button">MY WORK</a>
+                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#my-work" role="Button">MY WORK</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#" role="Button">TESTIMONIALS</a>
+                        <a class="nav-link btn btn-outline-primary" aria-pressed="true" aria-current="page" href="#" role="Button">TESTIMONIALS</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#" role="Button">BLOGS</a>
+                        <a class="nav-link btn btn-outline-primary" aria-pressed="true" aria-current="page" href="#" role="Button">BLOGS</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#" role="Button">CONTACT</a>
+                        <a class="nav-link btn btn-outline-primary" aria-pressed="true" aria-current="page" href="#" role="Button">CONTACT</a>
                       </li>
                     </ul>
                   </div>
@@ -102,59 +102,144 @@
     <!--End header section-->
 
     <!--main-->
-    <main class="container-fluid bg-light">
+    <main>
         <!--My Work Section-->
-        <section class="container pt-5 d-flex flex-column" >
-            <div class="d-flex justify-content-center"><h2 class="fw-bold">MY WORK</h2></div>
-            <!--Project 1-->
-            <article> 
-                <div class="d-flex gap-5">
-                    <figure>
-                        <img src="media/images/my_work_section/ima.jpeg" class="rounded-3 desc-img" alt="">
-                    </figure>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam, qui aut deleniti reprehenderit ea.</p>
+        <section class="container-fluid pt-5 d-flex flex-column bg-light" id="my-work" >
+            <!--Title-->
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <h3 class="fw-bold">MY WORK</h2>
                 </div>
-                <h3>PROJECT</h3>
+    
+                <!--Project 1-->
+                <article> 
+                    <div class="d-flex gap-5">
+                        <figure>
+                            <img src="media/images/my_work_section/sacco.jpeg" class="rounded-3 desc-img" alt="">
+                        </figure>
+                        <p>
+                            SACCO APP is a web application that digitizes and automates sacco activites such as savings, deposits and the sacco loaning process. This application still under development being developed by the students' team of the Web Developer Solvers' bootcamp being guided by their instructors as a learning project at the Ablestate.
+                        </p>
+                    </div>
+    
+                    <div class="container d-flex ps-5 pe-5 pb-5 ">
+                        <div class="container">
+                            <h5 class="fw-bold container">SACCO APP</h5>
+                        </div>
+                        <!-- <div class="d-flex container justify-content-end">
+                            <li><a href="">See more</a></li>
+                        </div> -->
+                    </div>
+                </article>
+                
+                <!--Project 2-->
+                <article> 
+                    <div class="d-flex gap-5">
+                        <figure>
+                            <img src="media/images/my_work_section/wireframes.png" class="rounded-3 desc-img" alt="">
+                        </figure>
+                        <div class="container main-text">
+                            <p> 
+                                As an exercise in the first few weeks of the Solvers' bootcamp, I was required to come up with my personal profile using technologies such as figma, HTML, Bootstrap, CSS and Git that I had learnt.
+                            </br>
+                                You can take a galnce at my designs in the links below:
+                            </p>
+                            <div class="d-flex gap-3 container">
+                                <a href="https://www.figma.com/file/7j09v7pY1cXLTvaolGLAPy/High-Fidelity-Wireframes" target="_blank">
+                                    <span class="iconify" data-icon="grommet-icons:figma" data-inline="false"></span>
+                                    high fidelity wireframes & mockups
+                                </a> 
+                                <a href="https://www.figma.com/file/7j09v7pY1cXLTvaolGLAPy/High-Fidelity-Wireframes" target="_blank">
+                                    <span class="iconify" data-icon="grommet-icons:figma" data-inline="false"></span>
+                                    low fidelity wireframes
+                                </a>  
+                                <a href="https://github.com/ANYURU/anyuru.github.io" target="_blank">
+                                    <span class="iconify" data-icon="logos:github-icon" data-inline="false"></span> 
+                                    github repository 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="container d-flex ps-5 pe-5 pb-5 ">
+                        <div class="container">
+                            <h5 class="fw-bold container">PERSONAL PROFILE</h5>
+                        </div>
+                    </div>
+                </article>
+    
+                <!--Project 3-->
+                <article> 
+                    <div class="d-flex gap-5">
+                        <figure>
+                            <img src="media/images/my_work_section/facial.jpeg" class="rounded-3 desc-img" alt="">
+                        </figure>
+    
+                        <div class="container d-flex main-text flex-column">
+                            <p>
+                                The realtime facial recognition security system is a system that was developed by a team of four in which I was a member inorder to achieve the security motive using facial recognition technology in a home enviroment by distinguishing known faces from unknown faces and then notifying via email the owner on detection of an unknown face.
+                            </p>
+                            <a href="https://github.com/ANYURU/Facial-recognition" target="_blank">
+                                <span class="iconify" data-icon="logos:github-icon" data-inline="false"></span> 
+                                github repository
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="container d-flex ps-5 pe-5 pb-5 ">
+                        <div class="container">
+                            <h5 class="fw-bold container"> REALTIME FACIAL RECOGNITION SECURITY SYSTEM</h5>
+                        </div>
+                        <!-- <div class="d-flex container justify-content-end">
+                            <li><a href="">See more</a></li>
+                        </div> -->
+                    </div>
+                </article>
 
-                <ul class="d-flex pb-5">
-                    <li><a href="">See more</a></li>
-                </ul>
+            </div>
+            
+        </section>
+
+
+        <!--Blog section -->
+        <section class="d-flex flex-column bg-white container-fluid" id="blogs">
+        <h2 class="d-flex justify-content-center pt-5" >BLOGS</h2>
+
+        <div>
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>Bash</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit consequatur voluptas, obcaecati officiis veritatis eius!</p>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>GIT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laboriosam eligendi minus cupiditate cum assumenda.</p>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>CLI</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in debitis veniam sint iste dolore?</p>
             </article>
             
-            <!--Project 2-->
-            <article> 
-                <div class="d-flex gap-5">
-                    <figure>
-                        <img src="media/images/my_work_section/data-science.jpg" class="rounded-3 desc-img" alt="">
-                    </figure>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam, qui aut deleniti reprehenderit ea.</p>
-                </div>
-                <h3>PROJECT</h3>
-
-                <ul class="d-flex pb-5">
-                    <li><a href="">See more</a></li>
-                </ul>
+            <article>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <h3>Emmet</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officiis hic eveniet commodi molestiae odit.</p>
             </article>
-
-            <!--Project 3-->
-            <article> 
-                <div class="d-flex gap-5">
-                    <figure>
-                        <img src="media/images/my_work_section/nam.jpeg" class="rounded-3 desc-img" alt="">
-                    </figure>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam, qui aut deleniti reprehenderit ea.</p>
-                </div>
-                <h3>PROJECT</h3>
-
-                <ul class="d-flex pb-5">
-                    <li><a href="">See more</a></li>
-                </ul>
-            </article>
-        </section>
+        </div>
+    </section>
         
-        <section>
-
-        </section>
     </main>
 
 
@@ -163,38 +248,7 @@
     
     <main>
         
-        <!--Blog section -->
-        <section>
-            <h2>BLOGS</h2>
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>Bash</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit consequatur voluptas, obcaecati officiis veritatis eius!</p>
-            </article>
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>GIT</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laboriosam eligendi minus cupiditate cum assumenda.</p>
-            </article>
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>CLI</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in debitis veniam sint iste dolore?</p>
-            </article>
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>Emmet</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officiis hic eveniet commodi molestiae odit.</p>
-            </article>
-        </section>
+      
     </main>
     <footer> 
         <!--Contact me section-->
