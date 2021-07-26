@@ -6,8 +6,9 @@ li {
     list-style-type: none;
 }
 
-
-
+.btn-outline-primary {
+    border-color:#0073D1;
+}
 
 .navbar-light {
     background-color: rgba(255,255,255,0.4); 
@@ -56,17 +57,12 @@ li {
 }
 
 .header {
-    height:85vh;
     position: relative;    
 }
 
 .top-links {
     position: absolute;
-    bottom: 0.08vh;
-}
-
-.contact-container {
-    width: 100%;
+    bottom: 31.5%;
 }
 
 .header-text {
@@ -74,15 +70,20 @@ li {
 }
 
 .personal-statement {
-    /* position: absolute; */
     padding-top: 3.496vh; 
 }
 
 .ps-hireme-cta-container {
     background-color: #0073D1;
-    height: 40vh;
-    
+    height: 45vh;    
 }
+
+.desc-img {
+    height:16.25rem;
+    width:16.25rem;
+}
+
+
 
 
 
