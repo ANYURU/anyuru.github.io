@@ -112,7 +112,7 @@
                 </div>
     
                 <!--Project 1-->
-                <article> 
+                <article class="container"> 
                     <div class="d-flex gap-5">
                         <figure>
                             <img src="media/images/my_work_section/sacco.jpeg" class="rounded-3 desc-img" alt="">
@@ -133,7 +133,7 @@
                 </article>
                 
                 <!--Project 2-->
-                <article> 
+                <article class="container"> 
                     <div class="d-flex gap-5">
                         <figure>
                             <img src="media/images/my_work_section/wireframes.png" class="rounded-3 desc-img" alt="">
@@ -169,9 +169,9 @@
                 </article>
     
                 <!--Project 3-->
-                <article> 
+                <article class="container"> 
                     <div class="d-flex gap-5">
-                        <figure>
+                        <figure class="d-flex justify-content-center">
                             <img src="media/images/my_work_section/facial.jpeg" class="rounded-3 desc-img" alt="">
                         </figure>
     
@@ -196,89 +196,128 @@
                     </div>
                 </article>
             </div>
-            
         </section>
+        <!--End project section-->
 
 
         <!--Blog section -->
         <section class="d-flex flex-column bg-white container-fluid" id="blogs">
-        <h2 class="d-flex justify-content-center pt-5" >BLOGS</h2>
+            <h2 class="d-flex justify-content-center pt-5 pb-5 " >BLOGS</h2>
 
-        <div>
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>Bash</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit consequatur voluptas, obcaecati officiis veritatis eius!</p>
-            </article>
+            <div class="container d-flex gap-3 pb-3">
+                <article class="container">
+                    <figure class="container d-flex justify-content-center pt-3 pb-3 blog-img-h">
+                        <img src="media/images/blog_section/bash_adobespark.png" alt="">
+                    </figure>
+                    <h4 class="container d-flex justify-content-center">Bash</h4>
 
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>GIT</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laboriosam eligendi minus cupiditate cum assumenda.</p>
-            </article>
+                    <p>
+                        Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. You can checkout how it can be used for code automations here.
+                    </br>
+                    <a href="">Read more >> </a>  
+                    </p>  
+                </article>
 
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>CLI</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in debitis veniam sint iste dolore?</p>
-            </article>
-            
-            <article>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <h3>Emmet</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officiis hic eveniet commodi molestiae odit.</p>
-            </article>
-        </div>
-    </section>
-        
+                <article class="container">
+                    <figure class="container d-flex justify-content-center pt-3 pb-3 blog-img-h">
+                        <img src="media/images/blog_section/git_adobespark.png" alt="">
+                    </figure>
+                    <h4 class="container d-flex justify-content-center">GIT</h4>
+                    
+                    <p>
+                        Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Wanna learn more about version control with git
+                    </br>
+                    <a href="">Read more >> </a>
+                    </p>
+                </article>
+
+                <article class="container">
+                    <figure class="container d-flex justify-content-center pt-3 pb-3 blog-img-h">
+                        <img src="media/images/blog_section/cli_adobespark (1).png" alt="">
+                    </figure>
+                    <h4 class="container d-flex justify-content-center">CLI</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in debitis veniam sint iste dolore?</p>
+                </article>
+                
+                <article class="container">
+                    <figure class="container d-flex justify-content-center pt-3 pb-3 blog-img-h">
+                        <img src="media/images/blog_section/emmet_adobespark.png" alt="">
+                    </figure>
+                    <h4 class="container d-flex justify-content-center">Emmet</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officiis hic eveniet commodi molestiae odit.</p>
+                </article>
+            <div>
+        </section>
+        <!--End blog section-->
+
     </main>
+    <!--End main-->
 
 
-    
-    
-    
-    <main>
-        
-      
-    </main>
     <footer> 
         <!--Contact me section-->
-        <section>
-            <h2>Contact Me</h2>
-            <ul>
-                <div>
-                    <a href=""><i></i></a>
-                    <a href="">Twitter</a>
+        <section class="container-fluid pt-5 pb-3 footer-contact">
+            <h2 class="d-flex container justify-content-center pb-2">Contact Me</h2>
+            
+            <div class="container d-flex justify-content-center">
+                <!--Contact icons-->
+                <ul class="d-flex container flex-column contact-container gap-1 align-items-end">
+                    <li>
+                        <a href="">
+                            <span class="iconify" data-icon="logos:twitter" data-inline="false" style="font-size: medium;">
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <span class="iconify" data-icon="akar-icons:phone" data-inline="false" style="font-size: medium;"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <span class="iconify" data-icon="brandico:linkedin" data-inline="false" style="font-size: medium;"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <span class="iconify" data-icon="logos:google-gmail" data-inline="false" style="font-size: medium;">
+                            </span>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="">
+                            <span class="iconify" data-icon="ant-design:github-filled" data-inline="false"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!--Contacts text-->
+                <div class="container d-flex flex-column gap-1">
+                    <div class="contact-height align-items-center d-flex">
+                        <a href="" class="contact-text ">Twitter</a>
+                    </div>
+                    <div class="contact-height">
+                        <span class="contact-text contact-height align-items-center d-flex"> davidderrickanyuru@gmail.com</span>
+                    </div>
+                    <div class="contact-height align-items-center d-flex">
+                        <a href="" class="contact-text">LinkedIn</a>
+                    </div>
+                    <div class="contact-height">
+                        <span class="contact-text contact-height align-items-center d-flex">+256 757 501751</span>
+                    </div>
+                    
+                    <div class="contact-height align-items-center d-flex">
+                        <a href="" class="contact-text">Github</a>
+                    </div>        
                 </div>
-                
-                <div><a href=""><i></i></a>
-                    <a href="">+256757501751</a>
-                </div>
-                
-                <div>
-                    <a href=""><i></i></a>
-                    <a href="">Hackerrank</a>
-                </div>
-                
-                <div>
-                    <a href=""><i></i></a>
-                    <a href="">Github</a>
-                </div>
-                
-                <div>
-                    <a href=""><i></i></a>
-                    <a href="">Gmail</a>
-                </div>
-            </ul>
+
+            </div>
         </section>
+        <!--End  contact section-->
 
         <!--Copyright section-->
         <section id = "copyright">    

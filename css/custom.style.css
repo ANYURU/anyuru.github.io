@@ -88,7 +88,18 @@ li {
     height:13rem;
 }
 
+.blog-img-h {
+    height: 10rem;
+}
 
+.footer-contact {
+    background-color: #0073D1;
+}
 
+.contact-text {
+    color:#ffffff;
+}
 
-
+.contact-height {
+   height: 2.188rem;
+}
