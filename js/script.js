@@ -14,6 +14,3 @@ items.forEach((el) => {
     }
 })
 
-
-
-ACTIVATE_NAVIGATION()
