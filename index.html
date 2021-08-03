@@ -22,7 +22,7 @@
 </head>
 <body>
     <!--Header section -->
-    <section class = "header">
+    <section class = "header section" data-label="HOME">
         <div class = 'hero-bg'>
             <nav class="navbar navbar-expand-lg navbar-light" id="topnav">
                 <div class="container">
@@ -42,7 +42,7 @@
                   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-1">
                       <li class="nav-item">
-                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#" role="Button">HOME</a>
+                        <a class="nav-link btn btn-outline-primary" aria-current="page" href="#topnav" role="Button">HOME</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link btn btn-outline-primary" aria-current="page" href="#my-work" role="Button">MY WORK</a>
@@ -90,6 +90,51 @@
                     opportunity to create, transform and empower people and societies to enhance their work, abilities and 
                     potential to achieve greater heights. 
                 </p>
+                
+                <div class="container-fluid pt-4">
+                    <div class="container d-flex">
+                        <div class="container header-text">
+                            <h4 class="fw-bold fs-5">What I do</h4>
+                            <div>
+                                <span class="ps-2 fw-light fs-6">Web development</span>
+                            </div>
+                            <div>
+                                <span class="ps-2 fw-light fs-6">Wireframing</span>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <h4 class="fw-bold fs-5 header-text">Skills</h4>
+                            <div>
+                                <span class="ps-2 fw-light fs-6 header-text"> Python </span>
+                            </div>   
+                            <div>
+                                <span class="ps-2 fw-light fs-6 header-text"> Javascript </span>
+                            </div>
+                            <div>
+                                <span class="ps-2 fw-light fs-6 header-text"> CSS </span>
+                            </div>
+                            <div>
+                                <span class="ps-2 fw-light fs-6 header-text"> Python </span>
+                            </div>                         
+                            <div>
+                                <span class="ps-2 fw-light fs-6 header-text"> Version Control </span>
+                            </div>                         
+                        </div>
+
+                        <div class="container">
+                            <h4 class="fw-bold fs-5 header-text">Tools</h4>
+                            <div>
+                                <span class="ps-2 fw-light fs-6 header-text"> Figma </span>
+                            </div>   
+                            <div>
+                                <span class="ps-2 fw-light fs-6 header-text"> Github </span>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+        
+
             </div>
             <!--End personal statement-->
 
@@ -104,7 +149,7 @@
     <!--main-->
     <main>
         <!--My Work Section-->
-        <section class="container-fluid pt-5 d-flex flex-column bg-light" id="my-work" >
+        <section class="container-fluid pt-5 d-flex flex-column bg-light section" id="my-work" data-label="MY WORK">
             <!--Title-->
             <div class="container">
                 <div class="d-flex justify-content-center">
@@ -174,10 +219,10 @@
                         <figure class="d-flex justify-content-center">
                             <img src="media/images/my_work_section/facial.jpeg" class="rounded-3 desc-img" alt="">
                         </figure>
-    
+     
                         <div class="container d-flex main-text flex-column">
                             <p>
-                                The realtime facial recognition security system is a system that was developed by a team of four in which I was a member inorder to achieve the security motive using facial recognition technology in a home enviroment by distinguishing known faces from unknown faces and then notifying via email the owner on detection of an unknown face.
+                                The realtime facial recognition security system is a system that was developed by a team of four in which I was a member inorder to achieve the security motive using facial recognition technology in a home enviroment by distinguishing known faces from unknown faces and then notifying the owner with an email containing the unknown detected face on detection of an unknown face.
                             </p>
                             <a href="https://github.com/ANYURU/Facial-recognition" target="_blank">
                                 <span class="iconify" data-icon="logos:github-icon" data-inline="false"></span> 
@@ -200,7 +245,7 @@
         <!--End project section-->
 
         <!--Testimonials section-->
-        <section  class="container-fluid pt-5 pb-5 d-flex flex-column" id="testimonial"> 
+        <section  class="container-fluid pt-5 pb-5 d-flex flex-column section" id="testimonial" data-label="TESTIMONIALS"> 
 
             <!--Trial-->
             <!--Testimonials section-->
@@ -333,7 +378,7 @@
         <div class="bg-white">
 
             <!--Blog section -->
-            <section class="d-flex flex-column container-fluid" id="blogs">
+            <section class="d-flex flex-column container-fluid bg-white section" id="blogs" data-label="BLOGS">
                 <h2 class="d-flex justify-content-center pt-5 pb-5 " >BLOGS</h2>
     
                 <div class="container d-flex gap-3 pb-3">
@@ -343,11 +388,15 @@
                         </figure>
                         <h4 class="container d-flex justify-content-center">Bash</h4>
     
-                        <p>
-                            Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. You can checkout how it can be used for code automations here.
-                        </br>
-                        <a href="">Read more </a>  
-                        </p>  
+                        <div class="blog-text-height">
+                            <p >
+                                Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. You can checkout how it can be used for code automations here.
+                                </br>
+                                <a href="https://www.howtoforge.com/tutorial/linux-shell-scripting-lessons/" target
+                                ="_blank">Read more </a>  
+                            </p>
+                        </div>
+                          
                     </article>
     
                     <article class="container">
@@ -356,11 +405,13 @@
                         </figure>
                         <h4 class="container d-flex justify-content-center">GIT</h4>
                         
-                        <p>
-                            Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Wanna learn more about version control with git
-                        </br>
-                        <a href="">Read more </a>
-                        </p>
+                        <div class="blog-text-height">
+                            <p>
+                                Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Wanna learn more about version control with git
+                                </br>
+                                <a href="https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank">Read more </a>
+                            </p>
+                        </div>
                     </article>
     
                     <article class="container">
@@ -368,11 +419,14 @@
                             <img src="media/images/blog_section/cli_adobespark (1).png" alt="">
                         </figure>
                         <h4 class="container d-flex justify-content-center">CLI</h4>
-                        <p>
-                            CLI is a text-based user interface used to view and manage computer files. As a developer, one is required to have a good knowledge about CLI. And, I found this article helpful to get started with CLI.
-                        </br>
-                        <a href="https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal" target="_blank"> See more </a>
-                        </p>
+                        
+                        <div class="blog-text-height">
+                            <p>
+                                CLI is a text-based user interface used to view and manage computer files. As a developer, one is required to have a good knowledge about CLI. And, I found this article helpful to get started with CLI.
+                                </br>
+                                <a href="https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal" target="_blank"> Read more </a>
+                            </p>
+                        </div>
                     </article>
                     
                     <article class="container">
@@ -380,26 +434,29 @@
                             <img src="media/images/blog_section/emmet_adobespark.png" alt="">
                         </figure>
                         <h4 class="container d-flex justify-content-center">Emmet</h4>
-                        <p>
-                            Emmet is a free add-on for your text editor that allows you to type shortcuts that are then expanded into full pieces of HTML code. It simplifies writing html code. Read more to get started using Emmet.
-                        </br>
-                        <a href="https://docs.emmet.io/abbreviations/syntax/">Read more</a>
-                        </p>
+                        
+                        <div class="blog-text-height">
+                            <p>
+                                Emmet is a free add-on for your text editor that allows you to type shortcuts that are then expanded into full pieces of HTML code. It simplifies writing html code. Read more to get started using Emmet.
+                                </br>
+                                <a href="https://docs.emmet.io/abbreviations/syntax/">Read more</a>
+                            </p>
+                        </div>
+
+                        
                     </article>
                 <div>
             </section>
             <!--End blog section-->
-    
 
         </div>
-        
     </main>
     <!--End main-->
 
 
     <footer> 
         <!--Contact me section-->
-        <section class="container-fluid pt-5 pb-3 footer-contact" id="contacts">
+        <section class="container-fluid pt-5 pb-3 footer-contact section" id="contacts" data-label="Contact me">
             <h2 class="d-flex container justify-content-center pb-2">Contact Me</h2>
             
             <div class="container d-flex justify-content-center">
@@ -407,7 +464,7 @@
                 <ul class="d-flex container flex-column contact-container gap-1 align-items-end">
                     <!--Twitter-->
                     <li>
-                        <a href="https://twitter.com/AnyuruDavid">
+                        <a href="https://twitter.com/AnyuruDavid" target="_blank">
                             <span class="iconify" data-icon="logos:twitter" data-inline="false" style="font-size: medium;">
                             </span>
                         </a>
@@ -420,7 +477,7 @@
                     </li>
 
                     <li>
-                        <a href="https://www.linkedin.com/in/david-derrick-anyuru-9b3740163/">
+                        <a href="https://www.linkedin.com/in/david-derrick-anyuru-9b3740163/" target="_blank">
                             <span class="iconify" data-icon="brandico:linkedin" data-inline="false" style="font-size: medium;"></span>
                         </a>
                     </li>
@@ -433,7 +490,7 @@
                     </li>
     
                     <li>
-                        <a href="https://github.com/ANYURU">
+                        <a href="https://github.com/ANYURU" target="_blank">
                             <span class="iconify" data-icon="ant-design:github-filled" data-inline="false"></span>
                         </a>
                     </li>
@@ -468,6 +525,33 @@
             <span class="container">&copy Copyright 2021</span>
         </section>
     </footer>
+
+    <!--TR-->
+    <nav class="vert-nav d-flex flex-column">
+        <div class="vert-nav-item">
+            <a href="#topnav" class="vert-nav-link"> </a>
+            <span class="nav-label">HOME</span>
+        </div>
+
+        <div class="vert-nav-item">
+            <a href="#my-work" class="vert-nav-link"> </a>
+            <span class="nav-label">MY WORK</span>
+        </div>
+        
+        <div class="vert-nav-item">
+            <a href="#testimonial" class="vert-nav-link"> </a>
+            <span class="nav-label">TESTIMONIALS</span>
+        </div>
+
+        <div class="vert-nav-item">
+            <a href="#blogs " class="vert-nav-link"> </a>
+            <span class="nav-label">BLOGS</span>
+        </div>
+        <div class="vert-nav-item">
+            <a href="#contacts " class="vert-nav-link"> </a>
+            <span class="nav-label">Contact me</span>
+        </div>
+    </nav>
 
     <script src="js/script.js"></script>
     <script src="js/popper.min.js"></script>

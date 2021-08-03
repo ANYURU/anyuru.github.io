@@ -13,3 +13,7 @@ items.forEach((el) => {
         next = next.nextElementSibling
     }
 })
+
+
+
+ACTIVATE_NAVIGATION()
